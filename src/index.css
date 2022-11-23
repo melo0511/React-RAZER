@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Manrope:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Home{
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+.header-company{
+  width: 100%;
+  height:18%;
+  background: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #00e600;
+}
+
+.containerImg{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+
+.LogoTipo{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.Razer{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title{
+  font-size: 4rem;
+  color: #44d62c;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.lista{
+  width: 25%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:6rem;
+}
+
+.lista ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.lista li{
+  list-style: none;
+  font-size: 22px;
+}
+
+.lista li:hover{
+  border-bottom: 2px solid #44d62c;
+}
+
+.Ancla{
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
